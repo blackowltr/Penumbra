@@ -42,8 +42,7 @@ Install the Penumbra CLI:
 curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.75.0/pcli-installer.sh | sh
 ```
 
-:::note Note
-After completing the CLI installation, verify it was successful.
+Note: After completing the CLI installation, verify it was successful.
 
 ```shell
 pcli --version
@@ -58,9 +57,7 @@ Generate a Penumbra wallet:
 pcli init soft-kms generate
 ```
 
-:::warning Warning
-A private key (Private Seed) will be generated during the wallet creation process. Safeguard this key diligently as it's vital in case of losing access to your wallet.
-:::
+Warning: A private key (Private Seed) will be generated during the wallet creation process. Safeguard this key diligently as it's vital in case of losing access to your wallet.
 
 Locate your wallet address:
 
@@ -74,9 +71,7 @@ If you need to import a previously generated wallet:
 pcli init soft-kms import-phrase
 ```
 
-:::warning Warning
-To obtain your wallet address, visit the Penumbra Discord and navigate to the "#-testnet-faucet" channel.
-:::
+Warning: To obtain your wallet address, visit the Penumbra Discord and navigate to the "#-testnet-faucet" channel.
 
 Submit your wallet address to the Discord channel to receive faucet tokens.
 
